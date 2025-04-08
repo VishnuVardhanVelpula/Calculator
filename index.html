@@ -2,17 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div class="container">
         <div class="calci-text">
-            <p name="user-input" id="user-input">0</p>
+            <p id="user-input">0</p>
         </div>
+
+        <div class="memory-keys">
+            <button type="button" class="memory" id="mc">MC</button>
+            <button type="button" class="memory" id="mr">MR</button>
+            <button type="button" class="memory" id="ms">MS</button>
+            <button type="button" class="memory" id="m-plus">M+</button>
+            <button type="button" class="memory" id="m-minus">M-</button>
+        </div>
+
         <div class="calc-keys">
             <button type="button" class="key-others-operations">AC</button>
             <button type="button" class="key-others-operations">DEL</button>
@@ -25,7 +34,7 @@
             <button type="button" class="numbers">4</button>
             <button type="button" class="numbers">5</button>
             <button type="button" class="numbers">6</button>
-            <button type="button" class="key-operate ">-</button>
+            <button type="button" class="key-operate">-</button>
             <button type="button" class="numbers">1</button>
             <button type="button" class="numbers">2</button>
             <button type="button" class="numbers">3</button>
@@ -35,6 +44,7 @@
             <button type="button" class="key-operate">=</button>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 

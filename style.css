@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: royalblue;
+  background-color: #333333;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -37,6 +37,32 @@ body {
   word-break: break-all;
 }
 
+.memory-keys {
+  display: grid;
+  grid-template-columns: repeat(5, 0.5fr);
+  gap: 1px;
+  margin-bottom: 15px;
+}
+
+.memory {
+  background-color: #a6a6a6;
+  color: black;
+  font-size: 0.85rem;
+  border-radius: 15px;
+  height: 45px; /* Reduced height */
+  width: 55px;
+  padding: 2px 0;
+  cursor: pointer;
+  border: none;
+}
+
+.calc-keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 15px;
+  grid-column-gap: 10px;
+}
+
 button {
   background: #333333;
   color: #fff;
@@ -48,15 +74,9 @@ button {
   width: 65px;
 }
 
-button:activate,
+button:active,
 button:focus {
   filter: brightness(120%);
-}
-.calc-keys {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-row-gap: 15px;
-  grid-column-gap: 10px;
 }
 
 .key-zero {
@@ -64,11 +84,12 @@ button:focus {
   width: 100%;
   border-radius: 30px;
 }
+
 .key-operate {
   background: #ff9501;
 }
 
-.key-others {
+.key-others-operations {
   background: #a6a6a6;
   color: #000000;
 }
