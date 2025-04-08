@@ -8,7 +8,8 @@ A simple and stylish calculator built using **HTML**, **CSS**, and **JavaScript*
 
 ## 🖼️ Preview
 
-![image](https://github.com/user-attachments/assets/335b3f6b-51f5-49c3-a20d-014caaf8bff8)
+![image](https://github.com/user-attachments/assets/5031f166-20c2-4096-9efc-73e82d1650c2)
+
 
 
 
