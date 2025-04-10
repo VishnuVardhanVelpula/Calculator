@@ -4,7 +4,7 @@ A simple and stylish calculator built using **HTML**, **CSS**, and **JavaScript*
 
 ## 🚀 Live Demo
 
-> Coming soon! (You can host it on GitHub Pages or Netlify)
+https://calculatorv264.netlify.app/
 
 ## 🖼️ Preview
 
